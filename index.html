@@ -49,33 +49,37 @@
         </div>
     </nav>
 
-    <main class="main-container mx-auto w-75">
+    <main class="main-container m-5">
         <!-- Catalogo -->
         <div class="library-container p-0">
             <header class="d-flex justify-content-between">
-                <h1 class="text-center mt-4 mb-5">Catalogo Libri</h1>
+                <div class="text-center mt-4 mb-5 fs-1">Catalogo Libri</div>
                 <button type="button" id="btn-add-books">Aggiungi libro</button>
             </header>
 
             <table class="table table-striped">
                 <thead class="container">
                     <tr class="row">
-                        <th class="col-6">
-                            <h5>Titolo</h5>
+                        <th class="col-6 fw-bold">
+                            Titolo
                         </th>
-                        <th class="col-3">
-                            <h5>Stato</h5>
+                        <th class="d-none d-md-table-cell col-md-2 fw-bold">
+                            Data di prestito
                         </th>
-                        <th class="col-3">
-                            <h5>Azione</h5>
+                        <th class="col-sm-3 col-md-2 fw-bold">
+                            Stato
+                        </th>
+                        <th class="col-sm-3 col-md-2 text-end pe-3 fw-bold">
+                            Azione
                         </th>
                     </tr>
                 </thead>
                 <tbody class="container">
                     <tr class="row">
                         <td class="col-6">I pilastri della terra</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -87,8 +91,9 @@
 
                     <tr class="row">
                         <td class="col-6">I promessi sposi</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -99,8 +104,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Il Signore degli anelli</td>
-                        <td class="col-3"><span class="bg-warning text-white rounded-2 p-1">In prestito</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">18/10/2023</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-warning text-white rounded-2 p-1">In prestito</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -111,8 +117,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Harry Potter e la pietra filosofale</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -123,8 +130,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Il codice da Vinci</td>
-                        <td class="col-3"><span class="bg-danger text-white rounded-2 p-1">Non disponibile</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-danger text-white rounded-2 p-1">Non disponibile</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -135,8 +143,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Shining</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -147,8 +156,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">La divina commedia</td>
-                        <td class="col-3"><span class="bg-warning text-white rounded-2 p-1">In prestito</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">21/09/2023</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-warning text-white rounded-2 p-1">In prestito</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -159,8 +169,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Il trono di spade</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</span></td>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -171,8 +182,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Il mondo di sofia</td>
-                        <td class="col-3"><span class="bg-danger text-white rounded-2 p-1">Non disponibile</td></span>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-danger text-white rounded-2 p-1">Non disponibile</td></span>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -183,8 +195,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Le cronache di Narnia: Il leone, la strega e l'armadio</td>
-                        <td class="col-3"><span class="bg-warning text-white rounded-2 p-1">In prestito</td></span>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">25/07/2023</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-warning text-white rounded-2 p-1">In prestito</td></span>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -195,8 +208,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">Il piccolo principe</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</td></span>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</td></span>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
@@ -207,8 +221,9 @@
                     </tr>
                     <tr class="row">
                         <td class="col-6">La storia infinita</td>
-                        <td class="col-3"><span class="bg-success text-white rounded-2 p-1">Disponibile</td></span>
-                        <td class="col-3">
+                        <td class="d-none d-md-table-cell col-md-2">-</td>
+                        <td class="col-sm-3 col-md-2"><span class="bg-success text-white rounded-2 p-1">Disponibile</td></span>
+                        <td class="col-sm-3 col-md-2 text-end pe-3">
                             <button type="button">
                                 <i class="bi bi-pencil-fill"></i>
                             </button>
