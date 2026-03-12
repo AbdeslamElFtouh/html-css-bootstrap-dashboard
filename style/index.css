@@ -10,7 +10,15 @@ nav img{
     color: white;
 }
 
-.form-control{
-    background-color: white;
+/* Catalogo libri */
+
+#btn-add-books{
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(13, 110, 253);
+    border: none;
+    color: white;
 }
 
